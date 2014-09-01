@@ -3,7 +3,9 @@ Envelope Model
 
 ![](https://cloud.githubusercontent.com/assets/173906/4108389/99dbc590-31d6-11e4-9651-943875814e55.png)
 
-Model species distribution with Bioclim envelope method using bioclimatic data from [Worldclim](http://www.worldclim.org/bioclim):
+Model species distribution with Bioclim envelope method using bioclimatic data from [Worldclim](http://www.worldclim.org/bioclim) and SRTM DEM.
+
+###Bioclim varibles:
 
 - BIO1 = Annual Mean Temperature  
 - BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))  
@@ -25,4 +27,4 @@ Model species distribution with Bioclim envelope method using bioclimatic data f
 - BIO18 = Precipitation of Warmest Quarter  
 - BIO19 = Precipitation of Coldest Quarter  
 
-Plot using `ggplot2::ggplot`
+Plot resulting raster model using `ggplot2::ggplot`
