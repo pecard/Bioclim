@@ -5,15 +5,11 @@ Envelope Model
 
 Model species distribution with Bioclim envelope method using bioclimatic data from [Worldclim](http://www.worldclim.org/bioclim):
 
-.*BIO1 = Annual Mean Temperature
-
-.*BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
-
-BIO3 = Isothermality (BIO2/BIO7) (* 100)
-
-
-BIO4 = Temperature Seasonality (standard deviation *100)
-BIO5 = Max Temperature of Warmest Month
+  BIO1 = Annual Mean Temperature
+  BIO2 = Mean Diurnal Range (Mean of monthly (max temp - min temp))
+  BIO3 = Isothermality (BIO2/BIO7) (* 100)
+  BIO4 = Temperature Seasonality (standard deviation *100)
+  BIO5 = Max Temperature of Warmest Month
 BIO6 = Min Temperature of Coldest Month
 BIO7 = Temperature Annual Range (BIO5-BIO6)
 BIO8 = Mean Temperature of Wettest Quarter
